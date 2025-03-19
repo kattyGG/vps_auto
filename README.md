@@ -16,5 +16,8 @@ Ctrl +b  D     # 退出进程
 tmux new-session -d -s cloudupload "cloudflared tunnel --url http://127.0.0.1:8188 >> /workspace/cloudupload.log 2>&1"
 cat cloudupload.log
 ```
+```sh
+tmux attach-session -t cloudupload    #进进程
+```
 
 
