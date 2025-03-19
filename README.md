@@ -13,7 +13,7 @@ tmux new-session -d -s upload   #新进程
 tmux attach-session -t upload   #进入进程
 python3 upload.py     # upload 程序
 Ctrl +b  D     # 退出进程
-tmux new-session -d -s cloudupload "cloudflared tunnel --url http://127.0.0.1:8188 >> /workspace/cloudupload.log 2>&1"
+tmux new-session -d -s cloudupload "cloudflared tunnel --url http://127.0.0.1:8109 >> /workspace/cloudupload.log 2>&1"
 cat cloudupload.log
 ```
 ```sh
