@@ -1,4 +1,4 @@
-#临时租用vps的常用命令行
+# 临时租用vps的常用命令行
 
 ### search *.ssh 找公钥，upload。可以使用说是登录 ssh-rsa 
 
